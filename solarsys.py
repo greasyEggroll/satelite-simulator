@@ -5,23 +5,6 @@ import plotting as P
 import mio as fileIO ##This file can be found in this repo https://github.com/cmontalvo251/Python/blob/master/io/mio.py
 import sys
 
-##This code will eventually simulate the entire solar system but for now I'd 
-##like to go through all the chapters in Fundamentals of Astrodynamics and
-##plot stuff so that I understand all the things
-
-
-############## CHAPTER 1 #################
-
-## Keplers 3 Laws
-# 1 - The orbit of each planet is an ellipse
-# 2 - The line joining the planet to the sun sweeps out equal areas in equal times
-# 3 - The square of the period of a planet is proportional to the cube of its mean distance
-
-#Newton's 3 Laws
-#1 - Every body continues with equal velocity unless acted on by other forces
-#2 - The rate of change of momentum is proportional to the force applied
-#3 - Every action has an equal and opposite reaction
-
 class JPL():
     def __init__(self,julian_day):
         #run the coordinate transformation
